@@ -16,38 +16,83 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
+    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
+
+
     <title>Document</title>
 
     <style>
-        img.img-logo {
-            width: 50%;
+        .email-signature-container {
+            font-family: 'Google Sans', sans-serif;
         }
-        img.social {
-            width: 50px;
+
+        .signature-img {
+            height: 100px;
         }
+
+        .personal-data {
+            display: inline-block;
+            border-left: 2px solid black;
+            padding: 5px;
+            height: 150px;
+        }
+
+        .contact-info {
+            display: block;
+            line-height: 1.5;
+        }
+
+        .name,
+        .position {
+            font-size: 1.1rem;
+        }
+
+        .position {
+            margin-bottom: 5px;
+        }
+
+        .contact-info .icon {
+            height: 25px;
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-logo img-fluid"
-                    src="https://raw.githubusercontent.com/dscsticdo/dscsticdo.github.io/1c7c1dde71fe561f471e58aabf32b8ce20a11061/img/gdscsticdo-transparent.png"
-                    alt="logo">
-            </div>
+    <div class="email-signature-container">
+        <img src="https://raw.githubusercontent.com/GinoongFlores/email-signature/main/img/logo.png" alt="logo" class="signature-img">
 
-            <div class="col-lg-4">
-                <h5>Christian Paul Flores</h5>
-                <h6>GDSC Lead, STI College CDO</h6>
-                <a href="https://www.linkedin.com/in/christian-paul-flores">
+        <div class="personal-data">
+            <span class="contact-info name">Christian Paul Flores</span>
+            <span class="contact-info position">GDSC Lead - STI College CDO</span>
 
-                    <img src="img/facebook.png" class="social" alt="">
+            <span class="contact-info">
+                <i class="fas fa-phone-alt"></i>
+                <span class="phone-number">+63917-846-9087</span>
+            </span>
+
+            <span class="contact-info">
+                <a href="">
+                    <img class="icon" src="https://raw.githubusercontent.com/GinoongFlores/email-signature/main/img/facebook.png" alt="">
                 </a>
-            </div>
-
+                <a href="">
+                    <img class="icon" src="https://raw.githubusercontent.com/GinoongFlores/email-signature/main/img/facebook.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon" src="https://raw.githubusercontent.com/GinoongFlores/email-signature/main/img/facebook.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icon" src="https://raw.githubusercontent.com/GinoongFlores/email-signature/main/img/facebook.png" alt="">
+                </a>
+            </span>
         </div>
+
     </div>
 
 
